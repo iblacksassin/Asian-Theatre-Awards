@@ -84,40 +84,11 @@ h1{
 }
 /*Starter*/
 #starter{
-    background: url(pageants\ \(1\).jpeg)no-repeat;
+    background: url()no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-position: center;
-    transition: 5s;
-
-    animation-name: animate;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out;
-}
-@keyframes animate {
-    0%{
-        background-image: url(pageants\ \(2\).jpeg);
-    }
-    20%{
-        background-image: url(pageants\ \(3\).jpeg);
-    }
-    40%{
-        background-image: url(pageants\ \(4\).jpeg);
-    }
-    60%{
-        background-image: url(pageants\ \(1\).jpeg);
-    }
-    80%{
-        background-image: url(pageants\ \(2\).jpeg);
-    }
-    100%{
-        background-image: url(pageants\ \(3\).jpeg);
-    }
 }
 
 #middle{
